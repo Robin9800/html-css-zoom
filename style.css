@@ -13,7 +13,7 @@ body {
 .container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
 }
 
 /*utilities*/
@@ -41,6 +41,16 @@ header {
     justify-content: flex-end;
 }
 
+.header-bottom{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-end;
+    background-color: #222222;
+    min-height: 100px;
+
+}
+
 .speaker{
     display: flex;
     flex-direction: row;
@@ -56,6 +66,7 @@ header {
 .speaker a{
     border-radius: 8px;
     text-decoration: none;
+    color: white;
 }
 
 .speaker i{
