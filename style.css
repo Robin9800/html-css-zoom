@@ -72,7 +72,7 @@ body {
     text-decoration: none;
     color: white;
     background-color: #4a4a4a;
-    padding: 6px;
+    padding: 6px 4px;
 }
 
 .speaker i{
@@ -94,12 +94,7 @@ body {
     max-height: 100%;
     max-width: 38%;
 }
-.shortcuts{
-    z-index: 10;
-    position: absolute;
-    top:0;
-    right:20px;
-}
+
 #video-section{
     display: flex;
     flex-direction: row;
@@ -137,7 +132,7 @@ body {
     margin: 4px;
 }
 
-.audio-cam{
+.nav{
     flex-direction: row;
     margin-left: 10px;
 }
@@ -148,4 +143,14 @@ body {
 
 #active{
     color: hsl(98deg 100% 39%);
+}
+
+.ending a{
+    color: red;
+}
+
+.ending{
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(0deg 0% 29%);;
 }
