@@ -36,39 +36,43 @@ body {
     margin: 8px;
 }
 
+.flex{
+    display: flex;
+}
+
+
+
 /*content*/
 
-header {
-    min-height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-footer{
-    display: flex;
-    align-items: flex-end;
-    background-color: #222222;
-    min-height: 100px;
-
-}
 
 .speaker{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    position: absolute;
+    top: 8px;
+    right: 6px;
 }
 
 .speaker ul{
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+.speaker li{
+    margin: 6px;
+    color: white;
+}
 
-
+ 
 .speaker a{
     border-radius: 8px;
     text-decoration: none;
     color: white;
+    background-color: #4a4a4a;
+    padding: 6px;
 }
 
 .speaker i{
@@ -134,11 +138,14 @@ footer{
 }
 
 .audio-cam{
-    display: flex;
     flex-direction: row;
     margin-left: 10px;
 }
 
 #freccia{
     font-size: 14px;
+}
+
+#active{
+    color: hsl(98deg 100% 39%);
 }

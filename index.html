@@ -10,10 +10,13 @@
 </head>
 <body>
     <div class="container">
-        <!--views section-->
+        <!--video section-->
         <div id="video-section">
-            <div class="shortcuts">
-                Full screen
+            <div class="speaker">
+                <ul>
+                    <li><a href="#">Speaker view</a></li>
+                    <li><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
+                </ul> 
             </div>
             <div class="video-item">
                 <img src="https://picsum.photos/200" />
@@ -106,7 +109,6 @@
                 <img src="https://picsum.photos/200" />
             </div>
 
-
             <div class="video-item">
                 <img src="https://picsum.photos/200" />
             </div>
@@ -130,16 +132,31 @@
             </div>
         </div>
         <div class="toolbar">
-            <div class="audio-cam white">
+            <!--TOOLBAR LEFT-->
+            <div class="audio-cam flex white">
                 <a href=""><i class="fas fa-microphone"></i>Mute</a>
                 <i id="freccia" class="fas fa-angle-up"></i>
                 <a href=""><i class="fas fa-video"></i>Stop Video</a>
                 <i id="freccia" class="fas fa-angle-up"></i>
             </div>
+            <!--TOOLBAR CENTER-->
+           <div class="audio-cam flex white">
+                <a href="#"><i class="fas fa-user-plus"></i>Invite</a>
+                <a href="#"><i class="fas fa-user-friends"></i>Manage Partcipants</a>
+                <a href="#"><i class="fas fa-chart-bar"></i>Polling</a>
+                <a href="#"><i id="active" class="fas fa-share"></i>Share Screem</a>
+                <i id="freccia" class="fas fa-angle-up"></i>
+                <a href="#"><i class="fas fa-comment"></i>Chat</a>
+                <a href="#"><i class="fas fa-record-vinyl"></i>Record</a>
+                <a href="#"><i class="fas fa-th-large"></i>Breakout Rooms</a>
+                <a href="#"><i class="fas fa-anchor"></i>More</a>
+            </div>
+            <!--TOOLBAR RIGHT-->
+            <div class="audio-cam flex white">
+                <a href=""><i class="fas fa-microphone"></i>Mute</a>
             
-           
-            <h2 class="white">2</h2>
-            <h2 class="white">3</h2>
+                <a href=""><i class="fas fa-video"></i>Stop Video</a>
+            </div>
         </div>
 
     </div>
