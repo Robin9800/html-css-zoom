@@ -13,8 +13,12 @@ body {
 .container{
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 100vh;
 }
+
+
+
+
 
 /*utilities*/
 .white{
@@ -41,11 +45,9 @@ header {
     justify-content: flex-end;
 }
 
-.header-bottom{
+footer{
     display: flex;
-    flex-direction: row;
-
-    justify-content: flex-end;
+    align-items: flex-end;
     background-color: #222222;
     min-height: 100px;
 
@@ -73,4 +75,70 @@ header {
     margin: 4px;
     color: white;
 }
-    
+
+.video-item{
+    background-color: black;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 15%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.video-item img{
+    max-height: 100%;
+    max-width: 38%;
+}
+.shortcuts{
+    z-index: 10;
+    position: absolute;
+    top:0;
+    right:20px;
+}
+#video-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    overflow-y: auto;
+    max-height: 90vh;
+}
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:10vh;
+    background-color: hsl(0deg 0% 13%);
+}
+
+.toolbar i{
+    font-size: 22px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+}
+
+.audio-cam{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+#freccia{
+    font-size: 14px;
+}
