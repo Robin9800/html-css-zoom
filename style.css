@@ -1,0 +1,65 @@
+/* generics*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*utilities*/
+.white{
+    color: white;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    background-color: #4a4a4a;
+    text-decoration: none;
+    padding: 6px 4px;
+    border-radius: 6px;
+    margin: 8px;
+}
+
+/*content*/
+
+header {
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.speaker{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.speaker ul{
+    list-style-type: none;
+}
+
+
+
+.speaker a{
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.speaker i{
+    margin: 4px;
+    color: white;
+}
+    
